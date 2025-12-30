@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #667eea;
+  --color-primary-hover: #5a6fd8;
+  --color-secondary: #6c757d;
+  --color-success: #28a745;
+  --color-danger: #dc3545;
+  --color-info: #17a2b8;
+}
+
+:root {
+  --primary-color: #667eea;
+  --primary-hover: #5a6fd8;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f9fa;
+  --bg-tertiary: #e9ecef;
+  --text-primary: #2c3e50;
+  --text-secondary: #495057;
+  --text-tertiary: #6c757d;
+  --border-color: #dee2e6;
+  --grid-color: rgba(102, 126, 234, 0.12);
+  --grid-size: 32px;
+}
+
+[data-theme="dark"] {
+  --primary-color: #7c93f0;
+  --primary-hover: #6b82e8;
+  --bg-primary: #1a202c;
+  --bg-secondary: #2d3748;
+  --bg-tertiary: #4a5568;
+  --text-primary: #f7fafc;
+  --text-secondary: #e2e8f0;
+  --text-tertiary: #cbd5e0;
+  --border-color: #4a5568;
+  --grid-color: rgba(124, 147, 240, 0.15);
+}
+
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  overflow: hidden;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+#cy {
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-secondary);
+  background-image: linear-gradient(
+      0deg,
+      var(--grid-color) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
+  background-size: var(--grid-size) var(--grid-size);
+  background-position: 0 0, 0 0;
+  transition: background-color 0.2s ease-out;
+}
+
+/* Custom Scrollbar for Sidebar */
+.sidebar-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-track {
+  background: var(--bg-tertiary);
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  background: var(--text-tertiary);
+  border-radius: 4px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.15s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.dimmed {
+  opacity: 0.25 !important;
+  transition: opacity 0.3s ease;
+}
