@@ -7,6 +7,10 @@ An interactive, hierarchical mindmap visualization tool built with React and Cyt
 ![Cytoscape.js](https://img.shields.io/badge/Cytoscape.js-3.33.1-009688)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.1.18-38bdf8?logo=tailwindcss)
 
+## 🔗 Live Demo
+
+- Deployed app: https://mindmap-coral.vercel.app
+
 ## 📸 Screenshots
 
 ### Dark Mode - Expanded View
