@@ -27,13 +27,7 @@ An interactive, hierarchical mindmap visualization tool built with React and Cyt
 
 Watch the interactive mindmap in action:
 
-<video width="100%" controls>
-       <source src="https://raw.githubusercontent.com/JeetDas5/recsify-mindmap/main/public/mindmap_demo.mp4" type="video/mp4">
-       Your browser does not support the video tag. You can
-       <a href="https://raw.githubusercontent.com/JeetDas5/recsify-mindmap/main/public/mindmap_demo.mp4">download the video here</a>.
-</video>
-
-Direct link: https://raw.githubusercontent.com/JeetDas5/recsify-mindmap/main/public/mindmap_demo.mp4
+[▶️ Mindmap Demo (Google Drive)](https://drive.google.com/file/d/1YHAfIMm6fOidGN-7HNvcJZslWpTBi6bs/view?usp=sharing)
 
 ## 🚀 Features
 
