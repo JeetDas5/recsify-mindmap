@@ -7,7 +7,7 @@ An interactive, hierarchical mindmap visualization tool built with React and Cyt
 ![Cytoscape.js](https://img.shields.io/badge/Cytoscape.js-3.33.1-009688)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.1.18-38bdf8?logo=tailwindcss)
 
-## � Screenshots
+## 📸 Screenshots
 
 ### Dark Mode - Expanded View
 
@@ -21,7 +21,18 @@ An interactive, hierarchical mindmap visualization tool built with React and Cyt
 
 ![Light Mode](src/images/3.png)
 
-## �🚀 Features
+## 🎬 Demo Video
+
+### Mindmap Demo
+
+Watch the interactive mindmap in action:
+
+<video width="100%" controls>
+  <source src="public/mindmap_demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+## 🚀 Features
 
 - **Interactive Graph Visualization** - Pan, zoom, and interact with hierarchical node structures
 - **Dynamic Node Management** - Add, rename, edit, delete, and connect nodes in real-time
@@ -567,20 +578,6 @@ This project is open source and available under the MIT License.
 
 ---
 
-## 🐛 Known Issues & Future Improvements
-
-### Potential Enhancements
-
-- [ ] Undo/Redo functionality
-- [ ] Node search and filtering
-- [ ] Multiple mindmap management
-- [ ] Collaborative editing
-- [ ] Import from JSON/other formats
-- [ ] Custom themes and color schemes
-- [ ] Node icons and images
-- [ ] Export to PDF/SVG formats
-
----
 
 ## 📧 Contact & Support
 
@@ -588,4 +585,4 @@ For questions, issues, or feature requests, please open an issue on the reposito
 
 ---
 
-**Built with ❤️ by Jeet Das**
+**Built with ❤️ by Jeet Das for Recsify Internship Task**
